@@ -1,0 +1,1 @@
+{"version":3,"file":"a.js","sources":["../../src/a.js"],"sourcesContent":["export function double(value) {\n    return value * 2;\n}\n"],"names":["double","value"],"mappings":"AAAO,SAASA,OAAT,CAAgBC,KAAhB,EAAuB;AAC1B,SAAOA,KAAK,GAAG,CAAf;AACH;;;;"}

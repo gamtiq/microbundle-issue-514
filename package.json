@@ -1,0 +1,24 @@
+{
+  "name": "microbundle-issue-514",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Code to check microbundle's issue #514",
+  "main": "dist/commonjs/main.js",
+  "module": "dist/es-module/main.js",
+  "scripts": {
+    "build-commonjs": "microbundle build \"src/*.js\" --output dist/commonjs --format cjs --strict --no-compress",
+    "build-esm": "microbundle build \"src/*.js\" --output dist/es-module --format es --no-compress",
+    "build": "npm run build-commonjs && npm run build-esm"
+  },
+  "keywords": [
+    "microbundle",
+    "issue",
+    "commonjs",
+    "esm"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "microbundle": "^0.13.0"
+  }
+}
